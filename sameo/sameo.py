@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import sliding_window
 import polygonization
-from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
+import sam_model_registry, SamAutomaticMaskGenerator
 
 
 # Availble sam_kwargs:
